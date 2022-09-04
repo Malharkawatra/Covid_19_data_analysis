@@ -6,7 +6,7 @@ select * from cdeaths
 alter table cdeaths 
 modify date date ;
 
--- Now its showing error because actually the in the table is in the format of dd/mm/yyyy
+-- Now its showing error because actually date in the table is in the format of dd/mm/yyyy
 -- but in mysql the default setting for the date is yyyy/mm/dd 
 -- So firtly I should convert the format into yyy/mm/dd and then I will change the dataytype.
 
